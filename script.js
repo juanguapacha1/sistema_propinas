@@ -9,7 +9,7 @@ function calcularTotal() {
 
     if (valorPropina === "excelente") {
         propina = valorSubtotal * 0.20;
-    } else if (valorPropina === "bueno") {
+    } else if (valorPropina === "Bueno") {
         propina = valorSubtotal * 0.15;
     } else if (valorPropina === "regular") {
         propina = valorSubtotal * 0.10;
