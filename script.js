@@ -27,7 +27,7 @@ function calcularTotal() {
         descuento = 0;
     }
 
-    total += descuento
+    total -= descuento
 
 
     document.getElementById("propina").innerText = propina.toFixed(2);
