@@ -6,7 +6,6 @@ function calcularTotal() {
     let total = valorSubtotal
     let propina = 0
 
-
     if (valorPropina === "excelente") {
         propina = valorSubtotal * 0.20;
     } else if (valorPropina === "Bueno") {
